@@ -44,3 +44,17 @@ var Td = new TodoList();
 document.getElementById('NovoTodo').onclick = function () {
   Td.addTodo();
 };
+
+var Aluno = {
+  name: "Washington",
+  idade: 27,
+  empresa: "Rocketseat"
+};
+
+function Alunos(_ref) {
+  var name = _ref.name,
+      idade = _ref.idade;
+  console.log("Meu nome \xE9 ".concat(name, " eu tenho ").concat(idade, " anos de idade."));
+}
+
+Alunos(Aluno);

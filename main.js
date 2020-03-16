@@ -25,3 +25,15 @@ const Td = new TodoList();
 document.getElementById('NovoTodo').onclick = function(){
     Td.addTodo();
 }
+
+const Aluno ={
+    name: "Washington",
+    idade: 27,
+    empresa: "Rocketseat"
+}
+
+function Alunos({name,idade}){
+    console.log(`Meu nome é ${name} eu tenho ${idade} anos de idade.`);
+}
+
+Alunos(Aluno);

@@ -1,5 +1,6 @@
 {
     /*Responsável por entender o ambiente que estamos trabalhando e realaizar a 
     transpilação(converter ES6 ou superior para baixo)*/
-    "presets": ["@babel/preset-env"]
+    "presets": ["@babel/preset-env"],
+    "plugins":  ["@babel/plugin-proposal-object-rest-spread"]
 }
