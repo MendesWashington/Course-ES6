@@ -1,3 +1,3 @@
-# Curso-ES6
+# Course-ES6
 
 Javascript course with ES6
